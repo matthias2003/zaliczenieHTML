@@ -1,0 +1,5 @@
+export const mainImg1 = require("./main2.jpg")
+export const mainImg2 = require("./main3.jpeg")
+export const mainImg3 = require("./main4.webp")
+export const mainImg4 = require("./main5.jpg")
+export const mainImg5 = require("./main6.avif")
