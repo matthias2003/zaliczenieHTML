@@ -1,0 +1,28 @@
+main {
+    background-color: #F8F6F4;
+    padding: 20px;
+    min-height: 900px;
+}
+
+.container_menu {
+    width: 50%;
+    margin: auto;
+}
+.container_menu > .appetizers, .soups ,.maincourse,.desserts,.drinks {
+    padding: 10px 0;
+}
+
+.container_menu > .appetizers, .soups ,.maincourse,.desserts,.drinks > h2 {
+    text-align: center;
+}
+
+.tile_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus_icon {
+    width: 15px;
+    height: 15px;
+}

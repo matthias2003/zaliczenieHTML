@@ -14,7 +14,7 @@ function MainPage() {
                                         wymagające podniebienia.
                                 </p>
                                 <div className="tile__img">
-                                <img   src={icon.mainImg1} alt="Photo" />
+                                <img   src={icon.mainImg1} alt="Restaurant" />
                                 </div>
 
                         </div>
@@ -28,7 +28,7 @@ function MainPage() {
                                         techniki z różnych zakątków globu.
                                 </p>
                                 <div className="tile__img">
-                                        <img src={icon.mainImg2} alt="Photo"/>
+                                        <img src={icon.mainImg2} alt="Restaurant"/>
                                 </div>
                         </div>
                         <div className="tile">
@@ -40,7 +40,7 @@ function MainPage() {
                                         przygotowywane z najwyższą starannością i dbałością o szczegóły.
                                 </p>
                                 <div className="tile__img">
-                                        <img src={icon.mainImg3} alt="Photo"/>
+                                        <img src={icon.mainImg3} alt="Restaurant"/>
                                 </div>
                         </div>
                         <div className="tile">
@@ -57,7 +57,7 @@ function MainPage() {
                                         mógł znaleźć coś dla siebie.
                                 </p>
                                 <div className="tile__img">
-                                        <img src={icon.mainImg4} alt="Photo"/>
+                                        <img src={icon.mainImg4} alt="Restaurant"/>
                                 </div>
                         </div>
                         <div className="tile">
@@ -74,7 +74,7 @@ function MainPage() {
                                         przyjaciółmi.
                                 </p>
                                 <div className="tile__img">
-                                        <img src={icon.mainImg5} alt="Photo"/>
+                                        <img src={icon.mainImg5} alt="Restaurant"/>
                                 </div>
                         </div>
                         <h2>Zapraszamy!</h2>

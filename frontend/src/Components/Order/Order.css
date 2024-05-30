@@ -1,0 +1,48 @@
+main {
+    background-color: #F8F6F4;
+    padding: 20px;
+}
+
+.container_order {
+    width: 70%;
+    margin: auto;
+}
+
+.container_order > h2 {
+    text-align: center;
+}
+
+.search_cont {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.search_cont > form > label {
+    padding: 20px;
+}
+
+.add_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.add_icon:hover {
+    cursor: pointer;
+}
+
+.basket_row, .price_row, .search_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data_row {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: left;
+}

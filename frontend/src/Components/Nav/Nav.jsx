@@ -1,5 +1,5 @@
 import { useLocation, Link } from "react-router-dom";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import "./Nav.css"
 import * as cover from "../../Assets/index.js";
 function Nav() {
@@ -11,6 +11,10 @@ function Nav() {
                 return cover.mainPage
             case '/menu':
                 return cover.menu
+            case '/order':
+                return cover.order
+            default:
+                return cover.mainPage
         }
     }
     useEffect(() => {
@@ -27,7 +31,7 @@ function Nav() {
                     <Link to={"/menu"}>
                         <li>Menu</li>
                     </Link>
-                    <Link to={"/"}>
+                    <Link to={"/order"}>
                         <li>Zamów</li>
                     </Link>
                     <Link to={"/"}>
