@@ -13,6 +13,10 @@ function Nav() {
                 return cover.menu
             case '/order':
                 return cover.order
+            case '/gallery':
+                return cover.gallery
+            case '/contact':
+                return cover.contact
             default:
                 return cover.mainPage
         }
@@ -34,10 +38,10 @@ function Nav() {
                     <Link to={"/order"}>
                         <li>Zamów</li>
                     </Link>
-                    <Link to={"/"}>
+                    <Link to={"/gallery"}>
                         <li>Galeria</li>
                     </Link>
-                    <Link to={"/"}>
+                    <Link to={"/contact"}>
                         <li>Kontakt</li>
                     </Link>
                 </ul>

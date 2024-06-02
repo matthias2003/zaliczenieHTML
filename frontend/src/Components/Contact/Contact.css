@@ -1,0 +1,42 @@
+main {
+    background-color: #F8F6F4;
+}
+
+.container_contact {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.container_contact div {
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_contact button {
+    display: flex;
+    margin: auto;
+}
+
+.container_contact div textarea {
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+
+
+.container_contact div input {
+    width: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container_contact div select {
+    width: 208px;
+}

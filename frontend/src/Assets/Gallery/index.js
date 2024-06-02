@@ -1,0 +1,6 @@
+export const gallery1 = require("./gallery1.webp")
+export const gallery2 = require("./gallery2.jpg")
+export const gallery3 = require("./gallery3.webp")
+export const gallery4 = require("./gallery4.jpg")
+export const gallery5 = require("./gallery5.jpg")
+export const gallery6 = require("./gallery6.jpg")

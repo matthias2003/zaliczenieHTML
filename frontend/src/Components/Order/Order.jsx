@@ -77,7 +77,7 @@ function Order() {
                             required
                         />
                     </div>
-                    <button type="submit">Złóż zamówienie</button>
+                    <button className="button-68" type="submit">Złóż zamówienie</button>
                 </form>
             </div>
         </main>

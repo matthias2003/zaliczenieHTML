@@ -27,8 +27,6 @@ const getItem = async (val) => {
     return Menu.find({ nazwa: { $regex: val, $options: 'i' } });
 }
 
-
-
 main().catch(err => console.log(err));
 
 app.listen(port)
